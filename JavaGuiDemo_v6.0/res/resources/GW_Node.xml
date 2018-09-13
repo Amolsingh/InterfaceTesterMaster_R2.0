@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<Environment>
+  <centers>
+  
+  	<CDEV3>
+    <app id="CAWVGWPC31" url="https://192.168.92.62:8901/pc" name="PC" env="CDEV"  />
+    </CDEV3>
+    
+    <TDEV3>
+    <app id="DT03AWGWPC01" url="https://192.168.92.97:8901/pc" name="PC" env="TDEV" />
+    <app id="DT03AWGWBC01" url="https://192.168.92.66:8902/bc" name="BC" env="TDEV"/>
+    <app id="DT03AWGWCC01" url="https://192.168.92.33:8903/cc" name="CC" env="TDEV"/>
+    <app id="DT03AWGWAB01" url="https://192.168.92.111:8904/ab" name="CM" env="TDEV"/>
+    <app id="DT03AWGWPA01" url="https://192.168.92.94:8905/pc" name="PA" env="TDEV"/>
+    </TDEV3>
+    
+    <DEV3>
+    <app id="DAWVGWPC31" url="https://192.168.92.48:8901/pc" name="PC" env="DEV"/>
+    <app id="DAWVGWBC31" url="https://192.168.92.113:8902/bc" name="BC" env="DEV"/>
+    <app id="DAWVGWCC31" url="https://192.168.92.103:8903/cc" name="CC" env="DEV"/>
+    <app id="DAWVGWAB31" url="https://192.168.92.18:8904/ab" name="CM" env="DEV"/>
+    <app id="DAWVGWPA31" url="https://192.168.92.13:8905/pc" name="PA" env="DEV"/>
+    </DEV3>
+    
+    <QA3>
+    <app id="SAWVGWPC31" url="https://192.168.92.123:8901/pc" name="PC" env="QA"/>
+    <app id="SAWVGWBC31" url="https://192.168.92.80:8902/bc" name="BC" env="QA"/>
+    <app id="SAWVGWCC31" url="https://192.168.92.81:8903/cc" name="CC" env="QA"/>
+    <app id="SAWVGWAB31" url="https://192.168.92.70:8904/ab" name="CM" env="QA"/>
+    <app id="SAWVGWPA31" url="https://192.168.92.83:8905/pc" name="PA" env="QA"/>
+    </QA3>
+    
+    <TQA3>
+    <app id="ST03AWGWPC01" url="https://192.168.92.6:8901/pc" name="PC" env="TQA3"/>
+    <app id="ST03AWGWBC01" url="https://192.168.92.104:8902/bc" name="BC" env="TQA3"/>
+    <app id="ST03AWGWCC01" url="https://192.168.92.107:8903/cc" name="CC" env="TQA3"/>
+    <app id="ST03AWGWAB01" url="https://192.168.92.115:8904/ab" name="CM" env="TQA3"/>
+	<app id="ST03AWGWPA01" url="https://192.168.92.63:8905/pc" name="PA" env="TQA3"/>
+    </TQA3>
+    
+    <TUAT3>
+    <app id="UT03AWGWPC01" url="https://192.168.92.85:8901/pc" name="PC" env="TUAT3"/>
+    <app id="UT03AWGWBC01" url="https://192.168.92.24:8902/bc" name="BC" env="TUAT3"/>
+    <app id="UT03AWGWCC01" url="https://192.168.92.37:8903/cc" name="CC" env="TUAT3"/>
+    <app id="UT03AWGWAB01" url="https://192.168.92.82:8904/ab" name="CM" env="TUAT3"/>
+    </TUAT3>
+    
+    <QA5>
+    <app id="SI05AWGWPC01" url="https://192.168.92.4:8901/pc" name="PC" env="QA5"/>
+    <app id="SI05AWGWBC01" url="https://192.168.92.93:8902/bc" name="BC" env="QA5"/>
+    <app id="SI05AWGWCC01" url="https://192.168.92.112:8903/cc" name="CC" env="QA5"/>
+    <app id="SI05AWGWAB01" url="https://192.168.92.108:8904/ab" name="CM" env="QA5"/>
+    <app id="SI05AWGWPA01" url="https://192.168.92.56:8905/pc" name="PA" env="QA5"/>
+    </QA5>
+    
+    <UAT3>
+    <app id="UA03AWGWPC01" url="https://192.168.92.19:8901/pc" name="PC" env="UAT3"/>
+    <app id="UA03AWGWBC01" url="https://192.168.92.11:8902/bc" name="BC" env="UAT3"/>
+    <app id="UA03AWGWCC01" url="https://192.168.92.28:8903/cc" name="CC" env="UAT3"/>
+    <app id="UA03AWGWAB01" url="https://192.168.92.46:8904/ab" name="CM" env="UAT3"/>
+    <app id="UA03AWGWPA01" url="https://192.168.92.110:8905/pc" name="PA" env="UAT3"/>
+   </UAT3>
+   
+  </centers>
+</Environment>

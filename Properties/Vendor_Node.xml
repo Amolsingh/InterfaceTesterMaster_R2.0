@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<Environment>
+  <vendors>
+    <DEV2>
+    <app url="https://apps.brightclaimonline.com/csmapi/api/claims/pekinsubmit?wsdl" 	name="BRIGHTCLAIMS" 		env="DEV"/>
+    <app url="http://socket.carfaxbig.com/v4?wsdl" 									 	name="CARFAX" 				env="DEV"/>
+    <app url="https://services.eagleview.com/VendorService.svc?wsdl"  				 	name="EAGLEVIEW" 			env="DEV"/>
+    <app url="https://ws.armsweb.com/ws_armsweb/services/RentalManagement/Pekin?wsdl" 	name="ARMS RENTALMNGMNT" 	env="DEV"/>
+    <app url="https://www.symbility.net?wsdl" 													name="SYMBILITY" 			env="DEV"/>
+    <app url="https://na4.smartcommunications.cloud/one/oauth1/bulkServices/api/v2/jobs?wsdl" 	name="SMARTCOMMS1" 	env="DEV"/>
+    <app url="https://smartcommprd.pekininsurance.com/smartcomms/oauth1/api/v5/job/generateDocument?wsdl" name="SMARTCOMMS2" env="DEV"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/autoymm?wsdl"  				name="VERISK1" 				env="DEV"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/PDVinInquire?wsdl"  			name="VERISK2" 				env="DEV"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/LiabInquire?wsdl"  			name="VERISK3" 				env="DEV"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/ocrscanline?wsdl"  			name="OCR SCANLINE" 		env="DEV"/>
+    </DEV2>
+    
+    <QA2>
+    <app url="https://apps.brightclaimonline.com/csmapi/api/claims/pekinsubmit?wsdl" 	name="BRIGHTCLAIMS" 		env="QA"/>
+    <app url="http://socket.carfaxbig.com/v4?wsdl" 									 	name="CARFAX" 				env="QA"/>
+    <app url="https://services.eagleview.com/VendorService.svc?wsdl"  				 	name="EAGLEVIEW" 			env="QA"/>
+    <app url="https://ws.armsweb.com/ws_armsweb/services/RentalManagement/Pekin?wsdl" 	name="ARMS RENTALMNGMNT" 	env="QA"/>
+    <app url="https://www.symbility.net?wsdl" 													name="SYMBILITY" 			env="QA"/>
+    <app url="https://na4.smartcommunications.cloud/one/oauth1/bulkServices/api/v2/jobs?wsdl" 	name="SMARTCOMMS1" 	env="QA"/>
+    <app url="https://smartcommprd.pekininsurance.com/smartcomms/oauth1/api/v5/job/generateDocument?wsdl" name="SMARTCOMMS2" env="QA"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/autoymm?wsdl"  				name="VERISK1" 				env="QA"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/PDVinInquire?wsdl"  			name="VERISK2" 				env="QA"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/LiabInquire?wsdl"  			name="VERISK3" 				env="QA"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/ocrscanline?wsdl"  			name="OCR SCANLINE" 		env="QA"/>
+    </QA2>
+    
+    <UAT2>
+    <app url="https://apps.brightclaimonline.com/csmapi/api/claims/pekinsubmit?wsdl" 	name="BRIGHTCLAIMS" 		env="UAT"/>
+    <app url="http://socket.carfaxbig.com/v4?wsdl" 									 	name="CARFAX" 				env="UAT"/>
+    <app url="https://services.eagleview.com/VendorService.svc?wsdl"  				 	name="EAGLEVIEW" 			env="UAT"/>
+    <app url="https://ws.armsweb.com/ws_armsweb/services/RentalManagement/Pekin?wsdl" 	name="ARMS RENTALMNGMNT" 	env="UAT"/>
+    <app url="https://www.symbility.net?wsdl" 													name="SYMBILITY" 			env="UAT"/>
+    <app url="https://na4.smartcommunications.cloud/one/oauth1/bulkServices/api/v2/jobs?wsdl" 	name="SMARTCOMMS1" 	env="UAT"/>
+    <app url="https://smartcommprd.pekininsurance.com/smartcomms/oauth1/api/v5/job/generateDocument?wsdl" name="SMARTCOMMS2" env="UAT"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/autoymm?wsdl"  				name="VERISK1" 				env="UAT"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/PDVinInquire?wsdl"  			name="VERISK2" 				env="UAT"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/LiabInquire?wsdl"  			name="VERISK3" 				env="UAT"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/ocrscanline?wsdl"  			name="OCR SCANLINE" 		env="UAT"/>
+   </UAT2>
+    
+    <QA5>
+    <app url="https://apps.brightclaimonline.com/csmapi/api/claims/pekinsubmit?wsdl" 	name="BRIGHTCLAIMS" 		env="TRN"/>
+    <app url="http://socket.carfaxbig.com/v4?wsdl" 									 	name="CARFAX" 				env="TRN"/>
+    <app url="https://services.eagleview.com/VendorService.svc?wsdl"  				 	name="EAGLEVIEW" 			env="TRN"/>
+    <app url="https://ws.armsweb.com/ws_armsweb/services/RentalManagement/Pekin?wsdl" 	name="ARMS RENTALMNGMNT" 	env="TRN"/>
+    <app url="https://www.symbility.net?wsdl" 													name="SYMBILITY" 			env="TRN"/>
+    <app url="https://na4.smartcommunications.cloud/one/oauth1/bulkServices/api/v2/jobs?wsdl" 	name="SMARTCOMMS1" 	env="TRN"/>
+    <app url="https://smartcommprd.pekininsurance.com/smartcomms/oauth1/api/v5/job/generateDocument?wsdl" name="SMARTCOMMS2" env="TRN"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/autoymm?wsdl"  				name="VERISK1" 				env="TRN"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/PDVinInquire?wsdl"  			name="VERISK2" 				env="TRN"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/LiabInquire?wsdl"  			name="VERISK3" 				env="TRN"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/ocrscanline?wsdl"  			name="OCR SCANLINE" 		env="TRN"/>
+    </QA5>
+    
+   <PPD>
+    <app url="https://apps.brightclaimonline.com/csmapi/api/claims/pekinsubmit?wsdl" 	name="BRIGHTCLAIMS" 		env="PPD"/>
+    <app url="http://socket.carfaxbig.com/v4?wsdl" 									 	name="CARFAX" 				env="PPD"/>
+    <app url="https://services.eagleview.com/VendorService.svc?wsdl"  				 	name="EAGLEVIEW" 			env="PPD"/>
+    <app url="https://ws.armsweb.com/ws_armsweb/services/RentalManagement/Pekin?wsdl" 	name="ARMS RENTALMNGMNT" 	env="PPD"/>
+    <app url="https://www.symbility.net?wsdl" 													name="SYMBILITY" 			env="PPD"/>
+    <app url="https://na4.smartcommunications.cloud/one/oauth1/bulkServices/api/v2/jobs?wsdl" 	name="SMARTCOMMS1" 	env="PPD"/>
+    <app url="https://smartcommprd.pekininsurance.com/smartcomms/oauth1/api/v5/job/generateDocument?wsdl" name="SMARTCOMMS2" env="PPD"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/autoymm?wsdl"  				name="VERISK1" 				env="PPD"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/PDVinInquire?wsdl"  			name="VERISK2" 				env="PPD"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/LiabInquire?wsdl"  			name="VERISK3" 				env="PPD"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/ocrscanline?wsdl"  			name="OCR SCANLINE" 		env="PPD"/>
+   </PPD>
+   
+   <PRD>
+ 	<app url="https://apps.brightclaimonline.com/csmapi/api/claims/pekinsubmit?wsdl" 	name="BRIGHTCLAIMS" 		env="PRD"/>
+    <app url="http://socket.carfaxbig.com/v4?wsdl" 									 	name="CARFAX" 				env="PRD"/>
+    <app url="https://services.eagleview.com/VendorService.svc?wsdl"  				 	name="EAGLEVIEW" 			env="PRD"/>
+    <app url="https://ws.armsweb.com/ws_armsweb/services/RentalManagement/Pekin?wsdl" 	name="ARMS RENTALMNGMNT" 	env="PRD"/>
+    <app url="https://www.symbility.net?wsdl" 													name="SYMBILITY" 			env="PRD"/>
+    <app url="https://na4.smartcommunications.cloud/one/oauth1/bulkServices/api/v2/jobs?wsdl" 	name="SMARTCOMMS1" 	env="PRD"/>
+    <app url="https://smartcommprd.pekininsurance.com/smartcomms/oauth1/api/v5/job/generateDocument?wsdl" name="SMARTCOMMS2" env="PRD"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/autoymm?wsdl"  				name="VERISK1" 				env="PRD"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/PDVinInquire?wsdl"  			name="VERISK2" 				env="PRD"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/LiabInquire?wsdl"  			name="VERISK3" 				env="PRD"/>
+    <app url="https://prod.pekininsurance.com:8597/pekin/ocrscanline?wsdl"  			name="OCR SCANLINE" 		env="PRD"/>
+   </PRD>
+   
+  </vendors>
+</Environment>

@@ -1,0 +1,54 @@
+Service Check Analyzer Pekin
+==============================
+
+* The Folder contains the Service check Analyzer tool for Pekin Insurance
+
+* The tool allows the user to check the services availability for Mulesoft, GW and the Vendor services
+
+* The tool is specific to the Release mentioned in the tool panel
+
+* The report generated is opened automatically by the tool
+
+* The report generation path is configurable in the property file explained below
+
+* The reports generated will be purged automatically the next day so please save/mail the report for your reference
+
+* The tool should be run from inside the folder only and uses the files inside the properties file. Please don't
+delete the files in any case
+
+* The tool will generate the report by default for the Dev environment if none of the environments are selected
+
+* Please don't inject spaces while entering the values in the properties and the xml file
+
+##################################################################################################################################################################
+The Tool contains the following files:
+
+1. Service Check Analyzer runnable jar - Run this jar to open the tool window to access the environments
+to generate the report
+
+2. Service Check Analyzer executable file - Run this executable to open the tool window to access the environments
+to generate the report
+
+3. Service Check Analyzer xml for the Executable - This contains version and copy write details. Please don't change.
+
+4. Properties Folder - The properties folder contains the property files for Mulesoft, Guidewire and Vendor
+	
+	a). MULESOFT 
+		
+		i) muleConfig.properties - This property file contains the URI of mule interfaces along with the internal/external
+		specification. The property file also contains the HTTPSuccess and HTTPFailure Codes. The path for the file generation
+		for mule is also configurable in this property file. The interfaces and their URIs can be added anytime. This also 
+		contains the load balancer urls for the internal and external servers.
+		ii) Mule_Node.xml - This XML contains the node details for the various nodes of each environment in the tool. The number
+		of nodes are configurable. The node contains the internal and external mule server details.
+	
+	b). GUIDEWIRE
+		i) guidewireConfig.properties - This property file contains the configurable path for the guidewire report file generation
+		ii) GW_Node.xml - This XML contains Guidewire url for various centers along with the GW center names
+	
+	c). VENDOR
+		i) vendorConfig.properties - This property file contains the configurable path for the vendor report file.
+		It also contains the HTTPSuccess and HTTPFailure Codes.
+		ii) Vendor_Node.xml - This XML contains the Vendor url for various centers along with the Vendor names
+
+####################################################################################################################################################################
